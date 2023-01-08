@@ -1,0 +1,20 @@
+.main{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+.wrper{
+  width: 85%;
+  margin: auto;
+  height: 86%;
+  padding: 20px 0px;
+  overflow-y:scroll;
+  overflow-x:hidden;
+}
+.wrper::-webkit-scrollbar{
+  display: none;
+}
+.berWrpewr{
+  display: flex;
+  justify-content: center;
+}

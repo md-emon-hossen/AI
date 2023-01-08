@@ -1,0 +1,46 @@
+.loadingWrp{
+    position: absolute;
+    right:-10px;
+    width: 60px;
+    height: 10px;
+    display: flex;
+
+}
+
+.loadingWrp>div{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-left:5px;
+  
+}
+
+.divone{
+    animation: animationone 3s ease-in-out infinite;
+}
+.divtwo{
+    animation: animationone 3s ease-in-out infinite;
+}
+.divthree{
+    animation: animationone 3s ease-in-out infinite;
+}
+.divfour{
+    animation: animationone 3s ease-in-out infinite;
+}
+
+
+@keyframes animationone {
+    0%{
+        background: #fff;
+    }25%{
+        background: blue;
+    }50%{
+        background:yellow;
+    }75%{
+        background: red;
+    }100%{
+        background-color: blueviolet;
+    }
+}
+
