@@ -25,6 +25,7 @@ const handleClick=async(e)=>{
   setLogs([...Logs,{user:"ai",prompt:`${res.data}`}]);
   settext("");
   setisloading(false);
+  
 }
 
 function handleDown(e){
@@ -33,7 +34,9 @@ function handleDown(e){
   }
 }
 
-console.log(Logs);
+
+// console.log(Logs);
+// console.log(data)
 
   return (
     <div className={styles.textareaWrp}>
@@ -44,3 +47,4 @@ console.log(Logs);
     </div>
   )
 }
+
