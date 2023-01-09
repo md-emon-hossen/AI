@@ -4,9 +4,9 @@
   position: relative;
 }
 .wrper{
-  width: 85%;
+  width: 100%;
   margin: auto;
-  height: 86%;
+  height: 80%;
   padding: 20px 0px;
   overflow-y:scroll;
   overflow-x:hidden;
@@ -23,7 +23,7 @@
 
 @media (max-width:768px) {
   .wrper{
-  width: 95%;
+  width: 100%;
 
   }
 }

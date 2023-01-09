@@ -14,7 +14,7 @@ export default function Home() {
 
   return (
     <main className={styles.main}>
-    {/* <Header/> */}
+    <Header/>
       <section className={styles.wrper}>
         {
           Logs.map((item,index)=>{

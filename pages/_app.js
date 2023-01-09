@@ -1,3 +1,4 @@
+
 import '../styles/globals.css';
 import {AllContextProvider}from "../context/allContext";
 import { useState } from 'react';

@@ -1,4 +1,28 @@
 .headerWrp{
     height: 60px;
     width: 100%;
+    border-bottom:2px solid #3c4354;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    position: -webkit-sticky;
+   
+}
+.headerWrp>div{
+    width: 95%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.iconber{
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.icon{
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
 }
