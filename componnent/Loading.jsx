@@ -6,7 +6,6 @@ export default function Loadiing() {
       <div className={styles.divone}></div>
       <div className={styles.divtwo}></div>
       <div className={styles.divthree}></div>
-      <div className={styles.divfour}></div>
     </div>
   )
 }

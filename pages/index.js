@@ -4,7 +4,7 @@ import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 import Header from '../componnent/Header'
 import TextArea from '../componnent/TextArea'
-import { useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import ChatLog from '../componnent/ChatLog'
 import { useAllContext } from '../context/allContext'
 
