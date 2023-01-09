@@ -7,6 +7,7 @@ import TextArea from '../componnent/TextArea'
 import { useEffect, useRef, useState } from 'react'
 import ChatLog from '../componnent/ChatLog'
 import { useAllContext } from '../context/allContext'
+import Link from 'next/link'
 
 export default function Home() {
 
@@ -24,6 +25,7 @@ export default function Home() {
       </section>
       <div className={styles.berWrpewr}>
        <TextArea/>
+       <p className={styles.developer}>Develop By <Link href="https://codemon.netlify.app/">MD Emon Hossen</Link> </p>
       </div>
     </main>
   )

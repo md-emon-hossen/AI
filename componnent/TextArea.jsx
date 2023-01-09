@@ -35,8 +35,7 @@ function handleDown(e){
 }
 
 
-// console.log(Logs);
-// console.log(data)
+
 
   return (
     <div className={styles.textareaWrp}>

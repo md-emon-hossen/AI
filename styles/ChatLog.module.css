@@ -12,6 +12,7 @@
     margin: auto;
     display: flex;
     align-items:flex-start;
+    padding: 5px 0px;
 }
 .avatar{
     width: 40px;
@@ -23,6 +24,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 5px;
+    color: #fff;
 }
 .meAvatar{
     background: #9a59b3;
@@ -34,6 +36,7 @@
     padding:15px;
     font-size: 18px;
     border-radius: 5px;
+    
 }
 .meMessege{
     background-color:transparent;

@@ -10,7 +10,7 @@ body {
   max-width: 100vw;
   overflow-x: hidden;
   background-color: #343541;
-  color: #fff;
+  color: rgb(217, 217, 217);
   font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Mono', monospace;
