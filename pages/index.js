@@ -12,11 +12,22 @@ import Link from 'next/link'
 export default function Home() {
 
   const {Logs}=useAllContext();
+  const ref=useRef(null);
+
+  useEffect(() => {
+    if (ref) {
+      ref.current.addEventListener('DOMNodeInserted', event => {
+        const { currentTarget: target } = event;
+        target.scroll({ top: target.scrollHeight, behavior: 'smooth' });
+      });
+    }
+  }, [])
+
 
   return (
     <main className={styles.main}>
     <Header/>
-      <section className={styles.wrper}>
+      <section ref={ref} className={styles.wrper}>
         {
           Logs.map((item,index)=>{
             return <ChatLog uqnic={index} avatar={item.user} messege={item.prompt}/>
@@ -25,7 +36,7 @@ export default function Home() {
       </section>
       <div className={styles.berWrpewr}>
        <TextArea/>
-       <p className={styles.developer}>Develop By <Link href="https://codemon.netlify.app/">MD Emon Hossen</Link> </p>
+       <p className={styles.developer}>Developed By <Link href="https://codemon.netlify.app/">MD Emon Hossen</Link> </p>
       </div>
     </main>
   )
