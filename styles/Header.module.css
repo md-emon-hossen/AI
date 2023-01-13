@@ -22,7 +22,12 @@
     cursor: pointer;
 }
 .icon{
-    font-size: 25px;
+    font-size: 33px;
     font-weight: 600;
     cursor: pointer;
+    padding: 5px;
+}
+.icon:hover{
+    background: #3c4354;
+    border-radius: 50%;
 }

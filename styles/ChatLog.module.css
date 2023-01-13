@@ -33,11 +33,25 @@
     width: 100%;
     height: fit-content;
     background: #3c4354;
-    padding:15px;
-    font-size: 18px;
-    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
     
 }
 .meMessege{
     background-color:transparent;
+}
+
+.pre{
+        overflow-x: auto;
+        white-space: pre-wrap;
+        white-space: -moz-pre-wrap;
+        white-space: -pre-wrap;
+        white-space: -o-pre-wrap;
+        word-wrap: break-word;
+        font-size: 18px;
+        margin-top: -25px;
+}
+.mepre{
+    margin-top:15px;
 }

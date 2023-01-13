@@ -18,7 +18,7 @@ export default function Home() {
     if (ref) {
       ref.current.addEventListener('DOMNodeInserted', event => {
         const { currentTarget: target } = event;
-        target.scroll({ top: target.scrollHeight, behavior: 'smooth' });
+        target.scroll({ top:target.scrollHeight, behavior: 'smooth' });
       });
     }
   }, [])
